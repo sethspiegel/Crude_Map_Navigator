@@ -40,12 +40,12 @@ map.addCity("p"); //0
 */
 
 //tests the program with given CSV file
-map.readMap("map.csv");
+map.readMap("test_map.csv");
 //std::cout << map.cities_.size() << std::endl;
 //std::cout << map.cities_[0].getName() << std::endl;
 
 
-map.isRoute(test_map.getCity(5), map.getCity(8));
+map.isRoute(map.getCity(5), map.getCity(8));
 
 //std::cout << map.cities_.size() << std::endl;
 }
