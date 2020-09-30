@@ -1,3 +1,4 @@
+//this main tests the Crude_MaP_Navigator program with both manual input and file input
 #include "RouteMap.hpp"
 #include "City.hpp"
 
@@ -11,7 +12,10 @@ int main()
 {
 
 RouteMap map;
-//map.addCity("p"); //0
+
+//tests the program through manual input of cities and connections
+/*
+map.addCity("p"); //0
 //map.addCity("q"); //1
 //map.addCity("r"); //2
 //map.addCity("s"); //3
@@ -33,7 +37,9 @@ RouteMap map;
 //map.getCity(7) -> addConnection(map.getCity(8));
 //
 //map.isRoute(map.getCity(5), map.getCity(2));
+*/
 
+//tests the program with given CSV file
 map.readMap("map.csv");
 //std::cout << map.cities_.size() << std::endl;
 //std::cout << map.cities_[0].getName() << std::endl;
