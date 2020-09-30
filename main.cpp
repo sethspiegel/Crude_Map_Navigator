@@ -45,7 +45,7 @@ map.readMap("map.csv");
 //std::cout << map.cities_[0].getName() << std::endl;
 
 
-map.isRoute(map.getCity(5), map.getCity(8));
+map.isRoute(test_map.getCity(5), map.getCity(8));
 
 //std::cout << map.cities_.size() << std::endl;
 }
