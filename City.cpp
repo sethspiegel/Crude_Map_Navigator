@@ -1,6 +1,5 @@
 //
 /* @file City.hpp */
-// Project 5
 //Description: A base class that contains the values for a given
 //             City's name, all available connections between 
 //             that city and another, and whether it has been
